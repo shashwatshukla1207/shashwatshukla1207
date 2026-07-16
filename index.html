@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shashwat Shukla | Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            scroll-behavior:smooth;
+        }
+
+        body{
+            font-family:'Poppins',sans-serif;
+            background:#0d1117;
+            color:white;
+        }
+
+        header{
+            width:100%;
+            padding:20px 8%;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            position:fixed;
+            top:0;
+            background:#161b22;
+            z-index:1000;
+        }
+
+        header h2{
+            color:#58a6ff;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin-left:20px;
+            transition:.3s;
+        }
+
+        nav a:hover{
+            color:#58a6ff;
+        }
+
+        section{
+            padding:90px 8%;
+        }
+
+        .hero{
+            min-height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            text-align:center;
+            flex-direction:column;
+        }
+
+        .hero h1{
+            font-size:55px;
+        }
+
+        .hero h1 span{
+            color:#58a6ff;
+        }
+
+        .hero h3{
+            margin:15px 0;
+            font-weight:400;
+        }
+
+        .btn{
+            display:inline-block;
+            margin-top:20px;
+            padding:12px 30px;
+            background:#58a6ff;
+            color:white;
+            text-decoration:none;
+            border-radius:30px;
+        }
+
+        .about,
+        .skills,
+        .profiles,
+        .stats{
+            max-width:1000px;
+            margin:auto;
+        }
+
+        h2{
+            color:#58a6ff;
+            margin-bottom:20px;
+            font-size:35px;
+        }
+
+        .card{
+            background:#161b22;
+            padding:25px;
+            border-radius:12px;
+            margin-bottom:25px;
+        }
+
+        .skill-box{
+            display:flex;
+            flex-wrap:wrap;
+            gap:15px;
+        }
+
+        .skill{
+            background:#21262d;
+            padding:12px 20px;
+            border-radius:30px;
+        }
+
+        .profiles a{
+            display:block;
+            color:#58a6ff;
+            text-decoration:none;
+            margin:10px 0;
+        }
+
+        .stats img{
+            width:100%;
+            max-width:450px;
+            margin:15px;
+        }
+
+        .images{
+            display:flex;
+            flex-wrap:wrap;
+            justify-content:center;
+        }
+
+        footer{
+            text-align:center;
+            padding:25px;
+            background:#161b22;
+            margin-top:50px;
+        }
+
+        @media(max-width:768px){
+
+            header{
+                flex-direction:column;
+            }
+
+            nav{
+                margin-top:10px;
+            }
+
+            nav a{
+                margin:0 8px;
+            }
+
+            .hero h1{
+                font-size:40px;
+            }
+
+        }
+
+    </style>
+
+</head>
+<body>
+
+<header>
+
+    <h2>Shashwat</h2>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#profiles">Profiles</a>
+        <a href="#stats">Stats</a>
+    </nav>
+
+</header>
+
+<section class="hero">
+
+    <h1>Hello, I'm <span>Shashwat Shukla</span></h1>
+
+    <h3>B.Tech CSE Student | Software Developer | Problem Solver</h3>
+
+    <p>
+        Passionate about Web Development, Data Structures & Algorithms,
+        Cloud Computing and Competitive Programming.
+    </p>
+
+    <a href="https://github.com/shashwatshukla1207" class="btn" target="_blank">
+        Visit GitHub
+    </a>
+
+</section>
+
+<section id="about" class="about">
+
+    <h2>About Me</h2>
+
+    <div class="card">
+
+        <p><strong>Name:</strong> Shashwat Shukla</p>
+        <br>
+
+        <p><strong>Date of Birth:</strong> 12 July 2007</p>
+        <br>
+
+        <p><strong>Branch:</strong> Computer Science & Engineering</p>
+        <br>
+
+        <p>
+            I love solving coding problems, building web applications,
+            learning new technologies and contributing to open source.
+        </p>
+
+    </div>
+
+</section>
+
+<section id="skills" class="skills">
+
+<h2>Skills</h2>
+
+<div class="card">
+
+<div class="skill-box">
+
+<div class="skill">C++</div>
+<div class="skill">HTML5</div>
+<div class="skill">CSS3</div>
+<div class="skill">JavaScript</div>
+<div class="skill">Git</div>
+<div class="skill">GitHub</div>
+<div class="skill">VS Code</div>
+<div class="skill">Data Structures</div>
+<div class="skill">Algorithms</div>
+<div class="skill">AWS</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="profiles" class="profiles">
+
+<h2>Coding Profiles</h2>
+
+<div class="card">
+
+<a target="_blank" href="https://github.com/shashwatshukla1207">
+GitHub
+</a>
+
+<a target="_blank" href="https://www.linkedin.com/in/shashwatshukla2007/">
+LinkedIn
+</a>
+
+<a target="_blank" href="https://leetcode.com/u/shashwat_cse/">
+LeetCode
+</a>
+
+<a target="_blank" href="https://www.codechef.com/users/cse26_273">
+CodeChef
+</a>
+
+<a target="_blank" href="https://www.hackerrank.com/profile/shuklashashwat61">
+HackerRank
+</a>
+
+</div>
+
+</section>
+
+<section id="stats" class="stats">
+
+<h2>GitHub & Coding Stats</h2>
+
+<div class="images">
+
+<img src="https://github-readme-stats.vercel.app/api?username=shashwatshukla1207&show_icons=true&theme=tokyonight">
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shashwatshukla1207&layout=compact&theme=tokyonight">
+
+<img src="https://streak-stats.demolab.com/?user=shashwatshukla1207&theme=tokyonight">
+
+<img src="https://leetcard.jacoblin.cool/shashwat_cse?theme=dark">
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>⭐ Thank You for Visiting My Portfolio ⭐</h3>
+
+<p>
+"Consistency beats talent when talent doesn't stay consistent."
+</p>
+
+</footer>
+
+</body>
+</html>
